@@ -1,0 +1,4 @@
+DIV g h MulResult
+MOD i j ModResult
+MOD a b mod1
+

@@ -1,0 +1,70 @@
+<--- START of Round Robin Log file --->
+
+Time slice = 2 instructions
+
+Ready Queue:
+Front -> processes/filein_1.txt | processes/filein_3.txt | processes/filein_2.txt | processes/filein_5.txt | processes/filein_4.txt
+
+----------
+Instruction: ADD a b AddResult
+Decoded instruction: 1 10 20 AddResult
+AddResult: 30
+Instruction: SUB c d SubResult
+Decoded instruction: 2 830 40 SubResult
+SubResult: 790
+
+----------
+Instruction: DIV g h MulResult
+Decoded instruction: 4 70 80 MulResult
+MulResult: 0
+Instruction: MOD i j ModResult
+Decoded instruction: 5 90 100 ModResult
+ModResult: 90
+
+----------
+Instruction: MUL e f DivResult
+Decoded instruction: 3 29 69 DivResult
+DivResult: 2001
+Instruction: 
+Decoded instruction: 0 29 69 DivResult
+DivResult: 2001
+
+----------
+
+----------
+Instruction: MOD a b mod1
+Decoded instruction: 5 10 20 mod1
+mod1: 10
+Instruction: DIV c d div1
+Decoded instruction: 4 830 40 div1
+div1: 20
+
+----------
+Instruction: 
+Decoded instruction: 0 830 40 div1
+div1: 20
+
+----------
+Instruction: MOD a b mod1
+Decoded instruction: 5 10 20 mod1
+mod1: 10
+Instruction: 
+Decoded instruction: 0 10 20 mod1
+mod1: 10
+
+----------
+Instruction: MUL e f mul1
+Decoded instruction: 3 29 69 mul1
+mul1: 2001
+Instruction: SUB g h sub1
+Decoded instruction: 2 70 80 sub1
+sub1: -10
+
+----------
+Instruction: 
+Decoded instruction: 0 70 80 sub1
+sub1: -10
+
+----------
+
+<--- END of Log file --->
